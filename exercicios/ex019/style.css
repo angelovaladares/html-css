@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(248, 242, 242);
+}
+
+h1{
+    color: rgb(50, 49, 100);
+    font: normal bolder 2em serif;
+}
+
+h2{
+    color: rgb(131, 177, 110);
+    font-style: italic;
+}
+
+#principal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(39, 53, 182);
+}
+
+p{
+    font-size: 1.1em;
+}
+
+.basico{
+    font-size: 20px;
+}
+
+.intermediario{
+    font-size: 25px;
+}
+
+.avancado{
+    font-size: 30px;
+}

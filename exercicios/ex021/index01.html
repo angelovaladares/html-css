@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            height: auto;
+            width: auto;
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            margin: 0;
+        }
+
+        header{
+            width: 100px;
+
+            border: 2px solid black;
+
+            margin: 50px;
+
+            padding: 10px;
+
+            text-align: center;
+        }
+
+        header > p{
+            display: none;
+        }
+        header:hover > p{
+            display: block;
+        }
+        header:hover > h1{
+            color: red;
+        }
+
+        main{
+            padding: 10px;
+        
+        }
+
+        footer{
+            background-color: #141414;
+            color: white;
+            padding: 10px 30px;
+        }
+
+        footer > img{
+            weight: 100px;
+            width: 100px;
+        }
+
+        .titulo{
+            font-size: 50px;
+            font-weight: lighter;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .subtitulo{
+            font-style: italic;
+            color: green;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .informacao{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>menu</h1>
+        <p><a href="#">link</a> <a href="#">link</a> <a href="#">link</a></p>
+    </header>
+
+    <main>
+        <h2 class="titulo">HTML</h2>
+        <h3 class="subtitulo">Estrutura básica</h3>
+        <p class="informacao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus sunt unde laudantium sapiente animi magni ut eligendi deleniti architecto. Nobis modi voluptate velit quia nam eaque quibusdam impedit. Dicta, perferendis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nisi tempore optio asperiores. Tenetur iure repudiandae veniam voluptate culpa quis nam animi adipisci! Amet odio provident sed, unde obcaecati fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nostrum cum dolorem unde numquam praesentium aperiam beatae fuga dolores labore hic cumque consectetur eligendi error, odit reprehenderit corporis blanditiis incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis numquam molestias, suscipit unde illum culpa saepe odit corrupti. Molestias autem aspernatur libero aliquid architecto consequuntur id itaque? Incidunt, blanditiis omnis!</p>
+
+        <h2 class="titulo">CSS</h2>
+        <h3 class="subtitulo">Estrutura básica</h3>
+        <p class="informacao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus sunt unde laudantium sapiente animi magni ut eligendi deleniti architecto. Nobis modi voluptate velit quia nam eaque quibusdam impedit. Dicta, perferendis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nisi tempore optio asperiores. Tenetur iure repudiandae veniam voluptate culpa quis nam animi adipisci! Amet odio provident sed, unde obcaecati fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nostrum cum dolorem unde numquam praesentium aperiam beatae fuga dolores labore hic cumque consectetur eligendi error, odit reprehenderit corporis blanditiis incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis numquam molestias, suscipit unde illum culpa saepe odit corrupti. Molestias autem aspernatur libero aliquid architecto consequuntur id itaque? Incidunt, blanditiis omnis!</p>
+    </main>
+
+    <footer>
+        <img src="imagem/logo-sem-fundo.png" alt="Logo Point do Açaí">
+        <p>CNPJ: 11124323/24323-22</p>
+        <p>Telefone: (33)99999999</p>
+        <p>Endereço: Rua Point do Açaí - nº0</p>
+    </footer>
+</body>
+</html>
