@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background-size</title>
+    <style>
+        .fundo {
+            background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .container {
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+            background-color: white;
+            height: 300px;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 15px;
+            padding: 10px;
+        }
+
+        .titulo {
+            display: flex;
+            margin: auto;
+            text-align: center;
+        }
+
+        .paragrafo {
+            display: flex;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body class="fundo">
+    <main class="container">
+        <h1 class="titulo">Título</h1>
+        <p class="paragrafo">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            omnis ad asperiores distinctio aliquam dolorem eaque, voluptas
+            ullam? Modi culpa sequi corrupti neque vitae? Commodi in necessitatibus
+            quasi consequuntur odio.
+        </p>
+    </main>
+</body>
+</html>
