@@ -53,16 +53,18 @@
 
 .segundo-verso-paragrafo {
     color: white;
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(0, 0, 0, 0.555);
     display: inline-block;
     padding: 10px;
+    text-shadow: 1px 1px 0px black;
 }
 
 .quarto-verso-paragrafo {
     color: white;
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(0, 0, 0, 0.555);
     display: inline-block;
     padding: 10px;
+    text-shadow: 1px 1px 0px black;
 }
 
 .primeiro-verso {
@@ -72,9 +74,11 @@
 .segundo-verso {
     padding: 10vh 30px;
     background-image: url('imagens/background001.jpg');
-    background-position: center center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.507);
+    background-attachment: fixed;
 }
 
 .terceiro-verso {    
@@ -84,9 +88,12 @@
 .quarto-verso {
     padding: 10vh 30px;
     background-image: url('imagens/background002.jpg');
-    background-position: center center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.507);
+    background-attachment: fixed;
+
 }
 
 .quinto-verso {
@@ -97,8 +104,14 @@
     font-family: var(--font01);
     background-color: black;
     color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 .rodape-link {
     color: white;
+}
+
+.rodape-link:hover {
+    text-decoration: underline;
 }
