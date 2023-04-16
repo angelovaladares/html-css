@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+:root {
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02: 'Passion One', cursive;
+    --font03: 'Sriracha', cursive;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -19,15 +25,15 @@
 }
 
 .cabecalho-titulo {
-    font-family: 'Passion One', cursive;
+    font-family: var(--font02);
     font-variant: small-caps;
-    font-size: 8vh;
+    font-size: 10vw;
 }
 
 .cabecalho-autor {
-    font-family: 'Passion One', cursive;
+    font-family: var(--font02);
     font-weight: 200;
-    font-size: 2vh;
+    font-size: 2vw;
 }
 
 .cabecalho-link {
@@ -40,23 +46,23 @@
 }
 
 .principal {
-    font-family: 'Sriracha', cursive;
-    font-size: 30px;
+    font-family: var(--font03);
+    font-size: 3.8vw;
     line-height: 2em;
 }
 
 .segundo-verso-paragrafo {
     color: white;
     background-color: rgba(0, 0, 0, 0.438);
-    width: 400px;
-    padding-left: 10px;
+    display: inline-block;
+    padding: 10px;
 }
 
 .quarto-verso-paragrafo {
     color: white;
     background-color: rgba(0, 0, 0, 0.438);
-    width: 400px;
-    padding-left: 10px;
+    display: inline-block;
+    padding: 10px;
 }
 
 .primeiro-verso {
@@ -88,6 +94,7 @@
 }
 
 .rodape {
+    font-family: var(--font01);
     background-color: black;
     color: white;
 }
